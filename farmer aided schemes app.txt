@@ -1,0 +1,238 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Farmer Government Schemes India
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Roboto", sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-green-50 min-h-screen flex flex-col">
+  <header class="bg-green-700 text-white p-4 flex justify-between items-center">
+   <h1 class="text-xl font-bold">
+    Kisan Sahayak
+   </h1>
+   <button class="md:hidden text-white focus:outline-none" id="menu-btn">
+    <i class="fas fa-bars fa-lg">
+    </i>
+   </button>
+   <nav class="hidden md:flex space-x-6 font-semibold text-green-100" id="nav-menu">
+    <a class="hover:text-white" href="#schemes">
+     Schemes
+    </a>
+    <a class="hover:text-white" href="#news">
+     News
+    </a>
+    <a class="hover:text-white" href="#resources">
+     Resources
+    </a>
+    <a class="hover:text-white" href="#contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <nav class="bg-green-600 text-green-100 p-4 space-y-3 hidden md:hidden" id="mobile-menu">
+   <a class="block hover:text-white font-semibold" href="#schemes">
+    Schemes
+   </a>
+   <a class="block hover:text-white font-semibold" href="#news">
+    News
+   </a>
+   <a class="block hover:text-white font-semibold" href="#resources">
+    Resources
+   </a>
+   <a class="block hover:text-white font-semibold" href="#contact">
+    Contact
+   </a>
+  </nav>
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-3xl">
+   <section class="text-center mb-10">
+    <h2 class="text-3xl font-bold text-green-800 mb-3">
+     Government Schemes for Farmers
+    </h2>
+    <p class="text-green-700">
+     Find simple information about government schemes to help farmers in India.
+    </p>
+   </section>
+   <section class="mb-10" id="schemes">
+    <h3 class="text-2xl font-bold text-green-800 mb-6 text-center">
+     Popular Schemes
+    </h3>
+    <div class="space-y-6">
+     <div class="bg-white rounded shadow p-4 flex flex-col sm:flex-row sm:space-x-4">
+      <img alt="Poster showing PM-KISAN scheme with Indian farmer and government emblem" class="w-full sm:w-40 h-24 object-cover rounded mb-3 sm:mb-0" height="100" src="https://storage.googleapis.com/a1aa/image/283dbbe9-c9b4-4689-52c9-e858be54206a.jpg" width="150"/>
+      <div>
+       <h4 class="font-semibold text-green-900 mb-1">
+        PM-KISAN
+       </h4>
+       <p class="text-green-700 text-sm">
+        ₹6,000 per year income support for small and marginal farmers.
+       </p>
+       <a class="text-green-700 text-sm font-semibold hover:underline mt-2 inline-block" href="https://pmkisan.gov.in/" rel="noopener noreferrer" target="_blank">
+        Learn More
+        <i class="fas fa-external-link-alt text-xs">
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="bg-white rounded shadow p-4 flex flex-col sm:flex-row sm:space-x-4">
+      <img alt="Farmer holding soil health card with farmland background" class="w-full sm:w-40 h-24 object-cover rounded mb-3 sm:mb-0" height="100" src="https://storage.googleapis.com/a1aa/image/2c1d76ff-079f-4330-de65-6e3e46abd08d.jpg" width="150"/>
+      <div>
+       <h4 class="font-semibold text-green-900 mb-1">
+        Soil Health Card
+       </h4>
+       <p class="text-green-700 text-sm">
+        Helps farmers know soil nutrients to improve crop growth.
+       </p>
+       <a class="text-green-700 text-sm font-semibold hover:underline mt-2 inline-block" href="https://soilhealth.dac.gov.in/" rel="noopener noreferrer" target="_blank">
+        Learn More
+        <i class="fas fa-external-link-alt text-xs">
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="bg-white rounded shadow p-4 flex flex-col sm:flex-row sm:space-x-4">
+      <img alt="Farmer with crop insurance documents in hand" class="w-full sm:w-40 h-24 object-cover rounded mb-3 sm:mb-0" height="100" src="https://storage.googleapis.com/a1aa/image/5e320783-d744-4d2d-17c6-d93f1bccd712.jpg" width="150"/>
+      <div>
+       <h4 class="font-semibold text-green-900 mb-1">
+        PM Fasal Bima Yojana
+       </h4>
+       <p class="text-green-700 text-sm">
+        Insurance for farmers if crops fail due to natural problems.
+       </p>
+       <a class="text-green-700 text-sm font-semibold hover:underline mt-2 inline-block" href="https://pmfby.gov.in/" rel="noopener noreferrer" target="_blank">
+        Learn More
+        <i class="fas fa-external-link-alt text-xs">
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="bg-white rounded shadow p-4 flex flex-col sm:flex-row sm:space-x-4">
+      <img alt="Farmer holding a credit card with farm background" class="w-full sm:w-40 h-24 object-cover rounded mb-3 sm:mb-0" height="100" src="https://storage.googleapis.com/a1aa/image/bccc2a4d-9de4-4f53-76dc-e6f6b770b04d.jpg" width="150"/>
+      <div>
+       <h4 class="font-semibold text-green-900 mb-1">
+        Kisan Credit Card
+       </h4>
+       <p class="text-green-700 text-sm">
+        Easy loans for farmers to buy seeds, tools, and other needs.
+       </p>
+       <a class="text-green-700 text-sm font-semibold hover:underline mt-2 inline-block" href="https://agri.gov.in/kisan-credit-card" rel="noopener noreferrer" target="_blank">
+        Learn More
+        <i class="fas fa-external-link-alt text-xs">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="mb-10" id="news">
+    <h3 class="text-2xl font-bold text-green-800 mb-6 text-center">
+     News
+    </h3>
+    <div class="space-y-4">
+     <div class="bg-white rounded shadow p-4">
+      <h4 class="font-semibold text-green-900 mb-1">
+       New Support Package for Farmers
+      </h4>
+      <p class="text-green-700 text-sm">
+       The government announced new financial help for small farmers.
+      </p>
+      <time class="text-green-600 text-xs block mt-1" datetime="2024-06-10">
+       June 10, 2024
+      </time>
+     </div>
+     <div class="bg-white rounded shadow p-4">
+      <h4 class="font-semibold text-green-900 mb-1">
+       Soil Health Cards Distributed Faster
+      </h4>
+      <p class="text-green-700 text-sm">
+       More farmers are getting soil health cards to improve farming.
+      </p>
+      <time class="text-green-600 text-xs block mt-1" datetime="2024-06-05">
+       June 5, 2024
+      </time>
+     </div>
+     <div class="bg-white rounded shadow p-4">
+      <h4 class="font-semibold text-green-900 mb-1">
+       Crop Insurance Claims Made Easy
+      </h4>
+      <p class="text-green-700 text-sm">
+       The claim process for crop insurance is now simpler and faster.
+      </p>
+      <time class="text-green-600 text-xs block mt-1" datetime="2024-05-28">
+       May 28, 2024
+      </time>
+     </div>
+    </div>
+   </section>
+   <section class="mb-10" id="resources">
+    <h3 class="text-2xl font-bold text-green-800 mb-6 text-center">
+     Resources
+    </h3>
+    <ul class="list-disc list-inside text-green-700 space-y-2 text-sm">
+     <li>
+      <a class="hover:underline" href="https://agricoop.nic.in/sites/default/files/PM-KISAN-Guidelines.pdf" rel="noopener noreferrer" target="_blank">
+       PM-KISAN Guidelines (PDF)
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="https://soilhealth.dac.gov.in/SHC_Guidelines.pdf" rel="noopener noreferrer" target="_blank">
+       Soil Health Card Guidelines (PDF)
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="https://pmfby.gov.in/PMFBY_Guidelines.pdf" rel="noopener noreferrer" target="_blank">
+       PM Fasal Bima Yojana Guidelines (PDF)
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="https://agri.gov.in/sites/default/files/KCC_Guidelines.pdf" rel="noopener noreferrer" target="_blank">
+       Kisan Credit Card Guidelines (PDF)
+      </a>
+     </li>
+    </ul>
+   </section>
+   <section class="mb-10 bg-white rounded shadow p-6" id="contact">
+    <h3 class="text-2xl font-bold text-green-800 mb-4 text-center">
+     Contact Us
+    </h3>
+    <form>
+     <label class="block mb-2 text-green-700 font-semibold" for="name">
+      Name
+     </label>
+     <input class="w-full p-2 border border-green-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-green-500" id="name" name="name" placeholder="Your name" required="" type="text"/>
+     <label class="block mb-2 text-green-700 font-semibold" for="email">
+      Email
+     </label>
+     <input class="w-full p-2 border border-green-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-green-500" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     <label class="block mb-2 text-green-700 font-semibold" for="message">
+      Message
+     </label>
+     <textarea class="w-full p-2 border border-green-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-green-500" id="message" name="message" placeholder="Write your message" required="" rows="4"></textarea>
+     <button class="w-full bg-green-700 text-white font-bold py-2 rounded hover:bg-green-800 transition" type="submit">
+      Send
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-green-700 text-green-100 text-center py-4 text-sm">
+   © 2024 Kisan Sahayak. All rights reserved.
+  </footer>
+  <script>
+   const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+ </body>
+</html>
